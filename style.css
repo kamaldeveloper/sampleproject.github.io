@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+  background-color:white;
+}
+
+
+
+
+.navbar{
+
+    background-color: rgba(0, 0, 0, 0.815);
+    min-height: 50px;
+    margin-bottom: 20px;
+
+}
+
+.nav-items{
+
+    display: flex;
+    justify-content:space-between;
+    width: 300px;
+    padding: 20px;
+    
+}
+
+.nav-list{
+
+    list-style: none;
+    
+
+
+}
+
+.nav-item{
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.grid{
+
+    display: grid;
+    justify-content: center;
+   
+   
+}
+
+.grid-item{
+
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(3, 350px);
+    grid-gap: 50px;
+    row-gap: 100px;
+
+}
+
+.grid-1{
+
+    background-color: aquamarine;
+
+
+}
+
+.grid-2{
+
+    background-color: red;
+
+}
+
+.grid-3{
+
+    background-color: blue;
+
+  
+
+}
+
+.grid-4{
+
+    background-color: blueviolet;
+
+}
+
+.grid-5{
+
+    background-color: yellow;
+
+
+}
+
+.grid-6{
+
+    background-color: brown;
+
+}
+
+
+.footer{
+
+    min-height: 300px;
+    background-color: skyblue;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+   justify-content: space-around;
+}    
+
+
+.contains{
+    min-height: 400px;
+    min-width: 300px;
+    position: relative;
+   
+}
+
+
+.back{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: teal;
+    position: relative;
+    left: 39%;
+    
+    
+}
+
+.heading{
+
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+
+.para{
+
+    min-height: 100px;
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+    
+
+}
+
+.button{
+
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttone{
+
+
+    text-decoration: none;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.end{
+
+    text-align: center;
+    margin-top: -10px;
+    padding: 20px;
+}
+
+
+.phead{
+
+    color:blue;
+    position: relative;
+    top: 70%;
+
+
+}
+
+.pcontent{
+
+    color: black;
+    position: relative;
+    top: 75%;
+
+}
+
+
+@media only screen and (max-width: 415px) {
+    
+    .container {
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .nav-items{
+
+        min-width: 100%;
+    }
+
+
+    .grid-item{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 500px);
+        grid-gap: 50px;
+        row-gap: 100px;
+    
+    }
+
+    
+    .footer{
+
+        min-height:100%;
+        background-color: skyblue;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        position: relative;
+   }    
+
+   .para{
+
+        height:100%;
+        margin-top: 20px;
+        width: 100%;
+
+  }
+
+  .back{
+
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: teal;
+        position: relative;     
+    }
+
+ .contains{
+
+    display: flex;
+
+ }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+    .container {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        overflow: hidden;
+      }
+  
+      .nav-items{
+  
+          min-width: 100%;
+      }
+  
+  
+      .grid-item{
+  
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(6, 500px);
+          grid-gap: 50px;
+          row-gap: 100px;
+         
+      }
+  
+      
+  .footer{
+  
+      min-height:100%;
+      background-color: skyblue;
+      margin-top: 5%;
+      margin-bottom: 2%;
+      display: flex;
+      flex-direction: column;
+      min-width: 100%;
+      position: relative;
+     
+  }    
+  
+  .para{
+  
+      height:100%;
+      margin-top: 20px;
+      width: 100%;
+  
+  }
+  
+  .back{
+  
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-color: teal;
+      justify-content: center;
+      position: relative;
+      left: 42%;
+     
+  }
+
+  .contains{
+
+    margin-bottom: 5%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+
+   
+  }
